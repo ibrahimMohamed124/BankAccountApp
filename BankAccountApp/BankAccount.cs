@@ -12,7 +12,7 @@ namespace BankAccountApp
         public Guid AccountNumber { get; set; }
         public decimal Balance { get; set; }
 
-        public BankAccount(string owner, Guid accountNumber, decimal balance)
+        public BankAccount(string owner)
         {
             Owner = owner;
             AccountNumber = Guid.NewGuid();  // Generate a new unique account number

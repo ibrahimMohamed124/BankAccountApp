@@ -85,6 +85,7 @@
             resources.ApplyResources(CreateAccountBtn, "CreateAccountBtn");
             CreateAccountBtn.Name = "CreateAccountBtn";
             CreateAccountBtn.UseVisualStyleBackColor = true;
+            CreateAccountBtn.Click += CreateAccountBtn_Click;
             // 
             // Form1
             // 
