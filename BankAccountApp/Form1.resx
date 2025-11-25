@@ -150,34 +150,34 @@
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="acc.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="acc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="acc.Location" type="System.Drawing.Point, System.Drawing">
     <value>83, 366</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="acc.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 38</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+  <data name="acc.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
+  <data name="acc.Text" xml:space="preserve">
     <value>Account:</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="&gt;&gt;acc.Name" xml:space="preserve">
+    <value>acc</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+  <data name="&gt;&gt;acc.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;acc.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;acc.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="OwnerText.Location" type="System.Drawing.Point, System.Drawing">
@@ -201,25 +201,25 @@
   <data name="&gt;&gt;OwnerText.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="AccountNum.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="AmountNum.Location" type="System.Drawing.Point, System.Drawing">
     <value>213, 364</value>
   </data>
-  <data name="AccountNum.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="AmountNum.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 43</value>
   </data>
-  <data name="AccountNum.TabIndex" type="System.Int32, mscorlib">
+  <data name="AmountNum.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;AccountNum.Name" xml:space="preserve">
-    <value>AccountNum</value>
+  <data name="&gt;&gt;AmountNum.Name" xml:space="preserve">
+    <value>AmountNum</value>
   </data>
-  <data name="&gt;&gt;AccountNum.Type" xml:space="preserve">
+  <data name="&gt;&gt;AmountNum.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;AccountNum.Parent" xml:space="preserve">
+  <data name="&gt;&gt;AmountNum.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;AccountNum.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;AmountNum.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="BankAccountsGrid.Location" type="System.Drawing.Point, System.Drawing">
@@ -229,7 +229,7 @@
     <value>51</value>
   </data>
   <data name="BankAccountsGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>663, 305</value>
+    <value>701, 305</value>
   </data>
   <data name="BankAccountsGrid.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -250,10 +250,10 @@
     <value>NoControl</value>
   </data>
   <data name="DepositeBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>609, 355</value>
+    <value>609, 348</value>
   </data>
   <data name="DepositeBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>312, 59</value>
+    <value>348, 59</value>
   </data>
   <data name="DepositeBtn.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -277,10 +277,10 @@
     <value>NoControl</value>
   </data>
   <data name="WithdrawBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>959, 355</value>
+    <value>978, 348</value>
   </data>
   <data name="WithdrawBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>313, 59</value>
+    <value>332, 59</value>
   </data>
   <data name="WithdrawBtn.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -334,7 +334,7 @@
     <value>15, 37</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1308, 430</value>
+    <value>1345, 430</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 16.2pt</value>

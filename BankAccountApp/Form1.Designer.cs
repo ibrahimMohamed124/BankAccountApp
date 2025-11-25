@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label2 = new Label();
-            label1 = new Label();
+            acc = new Label();
             OwnerText = new TextBox();
-            AccountNum = new NumericUpDown();
+            AmountNum = new NumericUpDown();
             BankAccountsGrid = new DataGridView();
             DepositeBtn = new Button();
             WithdrawBtn = new Button();
             CreateAccountBtn = new Button();
-            ((System.ComponentModel.ISupportInitialize)AccountNum).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)AmountNum).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BankAccountsGrid).BeginInit();
             SuspendLayout();
             // 
@@ -46,20 +46,22 @@
             resources.ApplyResources(label2, "label2");
             label2.Name = "label2";
             // 
-            // label1
+            // acc
             // 
-            resources.ApplyResources(label1, "label1");
-            label1.Name = "label1";
+            resources.ApplyResources(acc, "acc");
+            acc.Name = "acc";
             // 
             // OwnerText
             // 
             resources.ApplyResources(OwnerText, "OwnerText");
             OwnerText.Name = "OwnerText";
             // 
-            // AccountNum
+            // AmountNum
             // 
-            resources.ApplyResources(AccountNum, "AccountNum");
-            AccountNum.Name = "AccountNum";
+            resources.ApplyResources(AmountNum, "AmountNum");
+            AmountNum.Maximum = new decimal(new int[] { 1215752191, 23, 0, 0 });
+            AmountNum.Minimum = new decimal(new int[] { 1410065407, 2, 0, int.MinValue });
+            AmountNum.Name = "AmountNum";
             // 
             // BankAccountsGrid
             // 
@@ -67,18 +69,21 @@
             BankAccountsGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             resources.ApplyResources(BankAccountsGrid, "BankAccountsGrid");
             BankAccountsGrid.Name = "BankAccountsGrid";
+            BankAccountsGrid.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             // 
             // DepositeBtn
             // 
             resources.ApplyResources(DepositeBtn, "DepositeBtn");
             DepositeBtn.Name = "DepositeBtn";
             DepositeBtn.UseVisualStyleBackColor = true;
+            DepositeBtn.Click += DepositeBtn_Click;
             // 
             // WithdrawBtn
             // 
             resources.ApplyResources(WithdrawBtn, "WithdrawBtn");
             WithdrawBtn.Name = "WithdrawBtn";
             WithdrawBtn.UseVisualStyleBackColor = true;
+            WithdrawBtn.Click += WithdrawBtn_Click;
             // 
             // CreateAccountBtn
             // 
@@ -95,13 +100,13 @@
             Controls.Add(WithdrawBtn);
             Controls.Add(DepositeBtn);
             Controls.Add(BankAccountsGrid);
-            Controls.Add(AccountNum);
+            Controls.Add(AmountNum);
             Controls.Add(OwnerText);
-            Controls.Add(label1);
+            Controls.Add(acc);
             Controls.Add(label2);
             Name = "Form1";
             Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)AccountNum).EndInit();
+            ((System.ComponentModel.ISupportInitialize)AmountNum).EndInit();
             ((System.ComponentModel.ISupportInitialize)BankAccountsGrid).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -110,10 +115,10 @@
         #endregion
 
         private Label label2;
-        private Label label1;
+        private Label acc;
         private TextBox textBox1;
         private TextBox OwnerText;
-        private NumericUpDown AccountNum;
+        private NumericUpDown AmountNum;
         private DataGridView BankAccountsGrid;
         private Button DepositeBtn;
         private Button WithdrawBtn;
